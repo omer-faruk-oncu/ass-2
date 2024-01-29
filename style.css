@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(50, 46, 46);
+
+.container{
+    color: white
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    
+    
+    
+}
+
+h1{
+    text-align: center; 
+    padding: 20px;
+    font-size: 4rem;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    letter-spacing: 10px; 
+    
+ 
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+header ul li:hover{
+    cursor: pointer;
+    color: red;
+    background-color: rgba(128, 128, 128, 0.223) ;
+    
+}
+
+header ul li{
+    
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 10px 30px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+.intro{
+  
+    font-size: 3rem;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Lobster', sans-serif;
+    
+}
+
+span::after{
+    content: "👋";
+    margin: 10px;
+}
+
+.project h2{
+
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 300px;
+    font-weight: 300;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.project img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.contact h3{
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.navbar ul li{
+    color: white;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+
+}
+.message input{
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: inherit;
+    border: 1px solid white;
+}
+
+.textarea{
+    background-color: inherit;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+}
+
+.submit{
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.submit:hover{
+    color: red;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.message p{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    display: block; 
+}
+
+
+Footer p{
+    font-size: 2rem;
+    width: 120px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+Footer p a{
+    text-decoration: none;
+}
+
+Footer p:hover{
+    background-color: red;
+    cursor: pointer;
+}
